@@ -1,1 +1,19 @@
+header {
+  font-family: "edwards", "papyrus", serif;
+  background: #4C8577;
+  color: #1c2541;
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+}
+  
+img {
+  height: 400px;
+  margin:20px;
+  border-radius: 10%;
+  /*I can't figure out how to center this image*/
+}
 
