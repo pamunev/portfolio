@@ -6,14 +6,56 @@ header {
   padding: 20px;
 }
 
+.back-eggshell {
+  background-color: #E7DFC6;
+}
+
+main {
+  margin: 0px;
+  border: 0px;
+  padding: 40px;
+}
+
+/* Why is there that weird white space above the footer, and how do I get rid of it? */
+/* I got rid of it by increasing the padding of "main", but I'm not sure if that's the right way. */
+footer {
+  background-color: #1C2541;
+  margin: 0px;
+  padding: 25px;
+  border: 0px;
+  color: #E7DFC6;
+}
+
+/* Styles */
+
 h2 {
   font-size: 24px;
 }
-  
+
+h3, h4 {
+  text-align: center;
+}
+
+h3, h4, p {
+  font-style: "Times New Roman";
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+}
+a:link {color: #4C8577}
+a:visited {color: blue}
+a:hover {color: lightseagreen}
+a:active {color: red}
+
+/* Elements*/
+
 img {
   height: 400px;
   margin:20px;
   border-radius: 10%;
   /*I can't figure out how to center this image*/
 }
-
